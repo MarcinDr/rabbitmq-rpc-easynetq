@@ -55,10 +55,5 @@ namespace EasyNetQClient
         {
             return JsonSerializer.Serialize(value);
         }
-        
-        // private static string ToJson(this byte[] value)
-        // {
-        //     return JsonSerializer.Serialize(value);
-        // }
     }
 }
